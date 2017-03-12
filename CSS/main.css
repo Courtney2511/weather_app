@@ -1,0 +1,29 @@
+body {
+  font-family: Arial;
+  color: #8C8C8C;
+}
+
+.weather-container {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 60px;
+  text-align: center;
+  border: 1px solid #F5F5F4;
+}
+
+.icon {
+  font-size: 40px;
+  color: #52868C;
+}
+
+.credits {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 10px;
+}
+
+a {
+  color: #8C8C8C;
+  text-decoration: none;
+}

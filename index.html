@@ -3,14 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <title>Weather App | Courtney Noonan</title>
-  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="CSS/main.css">
+  <link rel="stylesheet" href="CSS/weather-icons.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="script.js"></script>
+  <!-- bootstrap CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
-  <h1>The weather in....</h1>
-  <h2 id="city"></h2>
-  <h2 id="temperature"></h2>
-  <h2 id="main"></h2>
+  <div class="weather-container">
+    <h1 class="title">Current Weather</h1>
+    <h2 id="city"></h2>
+    <h2 id="temperature"></h2>
+    <i class="icon"></i>
+    <h2 id="main"></h2>
+</div>
+<div class="credits">
+  <p>Weather provided by <a href="https://openweathermap.org/">Open Weather</a></p>
+  <p>Icons: <a href="http://weathericons.io">Weather Icons</a></p>
+</div>
 </body>
 </html>
